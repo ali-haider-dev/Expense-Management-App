@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Bungee+Inline&family=Cormorant&family=Sofia&display=swap" rel="stylesheet">
+
+    <link href="dashboard.css" type="text/css" rel="stylesheet">
+    <title>Add Category - Expense Management System</title>
+</head>
+
+<body id="page-top" onload="veiwpage()">
+    <div class="container-fluid">
+        <div style="text-align: center;position: absolute;top: 20px;right: 20px;">
+            <button type="button" class="btn btn-primary" id="btn" onclick="logout()">LOGOUT</button>
+        </div>
+        <div class="container" id="box1">
+            <button id="addexpensedashboardbtn" class="btn btn-primary" type="button" onclick="window.location='Allcet.html'"> Back to Category</button>
+            <h1><img src="doller.jpg" alt="" style="
+                width: 10%;
+            ">WELCOME TO EXPENSE MANAGMENT SYSTEM <img src="dol.jpg" alt="" style="
+                width: 10%;
+            "></h1>
+        </div>
+    </div>
+    <div class="container" style="text-align: center;font-weight: bold ; ;">
+        <h1 style="font-size: 30px;background-color:  white;">ADD CATEGORY</h1>
+    </div>
+
+
+    <div class="container">
+        <form>
+            <div class="form-group" style="text-align: center;font-weight: bold">
+
+                <input type="text" class="form-control" id="name" placeholder="ENTER A CATEGORY NAME ">
+
+            </div>
+
+
+            <div style="text-align: center;">
+                <button type="button" class="btn btn-primary" id="btnadd" onclick="addCategories()">Add</button>
+            </div>
+        </form>
+
+    </div>
+      <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+      <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="allcategories.js"></script>
+<script src="dashboard.js"></script>
+
+</html>

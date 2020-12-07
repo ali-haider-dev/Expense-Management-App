@@ -1,0 +1,108 @@
+.container-fluid {
+    background-color: rgb(88, 9, 7);
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#box1 {
+    padding: 50px;
+    padding-top: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Bungee Inline', cursive;
+}
+
+#box2 {
+    width: 70%;
+}
+
+#heading2 {
+    text-align: center;
+    font-size: 47px;
+    color: black;
+}
+
+#btnaddexpense {
+    color: #fff;
+    background-color: rgb(6, 69, 153);
+    border-color: #3b5674;
+    ;
+    font-weight: bold;
+    height: 45px;
+    width: 170px;
+}
+
+#btncategory {
+    color: #fff;
+    background-color: black;
+    border-color: #3b5674;
+    font-weight: bold;
+    height: 45px;
+    width: 170px;
+    ;
+}
+
+#report {
+    color: #fff;
+    background-color: rgb(6, 69, 153);
+    ;
+    border-color: #3b5674;
+    font-weight: bold;
+    height: 45px;
+    width: 170px;
+}
+
+#inputrow {
+    margin-top: 10px;
+}
+
+#tableheading,
+td {
+    font-weight: bold;
+    color: black;
+    border: 2px solid rgb(88, 9, 7);
+    padding: 5px 60px 5px 60px
+}
+
+table {
+    border: 2px solid rgb(88, 9, 7);
+    box-sizing: border-box;
+}
+
+#tablecontainer {
+    width: 80%;
+}
+
+td {
+    color: black;
+    border: 2px solid rgb(88, 9, 7);
+    padding: 5px 76px 5px 76px
+}
+
+.btn {
+    background-color: black;
+    border: black;
+    font-family: 'Sofia', cursive;
+}
+
+#inn {
+    font-size: 133%;
+    font-family: 'Sofia', cursive;
+}
+
+#link {
+    color: black;
+}
+
+#fstbl {
+    margin-left: 9%;
+}
+
+#bgh {
+    background-color: rgb(88, 9, 7);
+}
